@@ -1,0 +1,20 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "My sensational Google Apps Script project",
+  "author": "horisaki",
+  "main": "index.js",
+  "scripts": {,
+    "test": "jest",
+    "dev": "clasp push -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "watch": "latest",
+    "typescript": "latest",
+    "@types/google-apps-script": "latest",
+    "jest": "latest",
+    "@types/jest": "latest",
+    "ts-jest": "latest"
+  }
+}
